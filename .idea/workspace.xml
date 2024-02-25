@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5335e5b5-ea3f-426d-91f5-5dd431839ced" name="Changes" comment="update1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/TaxiKu/TaxiKuApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/example/TaxiKu/TaxiKuApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/TaxiKu/TaxiKuApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/CreateAccount.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/OrdersData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/TheMainInterface.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/UserInterface.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/pexels-andrew-neel-2312369.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/pexels-nao-triponez-129208.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/pexels-pixabay-257894.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/river_0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Html_Folder/userFroms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/TaxiKu/TaxiKuApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/TaxiKu/controller/orderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/TaxiKu/controller/userController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/TaxiKu/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/TaxiKu/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/TaxiKu/repository/orderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/TaxiKu/repository/userRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/TaxiKu/service/orderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/TaxiKu/service/userService.java" afterDir="false" />
-    </list>
+    <list default="true" id="5335e5b5-ea3f-426d-91f5-5dd431839ced" name="Changes" comment="update 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,6 +132,15 @@
       <option name="presentableId" value="Default" />
       <updated>1707033693653</updated>
     </task>
+    <task id="LOCAL-00001" summary="update 2">
+      <option name="closed" value="true" />
+      <created>1708844972643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708844972644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update1" />
+    <MESSAGE value="update 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2" />
   </component>
 </project>
