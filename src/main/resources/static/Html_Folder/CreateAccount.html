@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <style>
+        body {
+            background: url("pexels-andrew-neel-2312369.jpg") center/cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 120vh;
+        }
+
+        .signup-container {
+            background: rgba(255, 255, 255, 0.9); /* لون أبيض مع شفافية 0.9 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 30px;
+            width: 400px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #000;
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 12px;
+            color: #000;
+            text-align: left;
+        }
+
+        input {
+            width: calc(100% - 16px);
+            padding: 10px;
+            margin-bottom: 11px;
+            box-sizing: border-box;
+            border: 1px solid #000;
+            border-radius: 16px;
+        }
+
+        button {
+            background-color: #000;
+            color: white;
+            padding: 15px 60px;
+            border: none;
+            border-radius: 200px;
+            cursor: pointer;
+            transition: background-color 0.1s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #303030;
+        }
+        .home-link {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            text-decoration: none;
+            color: #f3f3f3;
+            font-size: 18px;
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .home-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+
+<a href="TheMainInterface.html" class="home-link">Home</a>
+
+<div class="signup-container">
+    <h2>Sign Up</h2>
+    <form action="process_signup.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+
+</body>
+
+</html>
